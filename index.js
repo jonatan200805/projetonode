@@ -4,7 +4,7 @@ app.use(express.json());
 
 app.get(function (req, res) {
   console.log("Requisição GET recebida para a rota URI /");
-  res.send("Seja bem-vindo à rota principal (/)!");
+  res.send("Bem vindo (/)!");
 });
 
 app.post(function (req, res) {
